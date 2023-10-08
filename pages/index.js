@@ -1,6 +1,6 @@
 import Head from "next/head";
 import PPPBar, { usePPP } from "../components/PPPBar";
-import SiteHeader from "../components/SiteHeader";
+import MySiteHeader from "../components/SiteHeader";
 import SiteHero from "../components/SiteHero";
 import BigReasons from "../components/BigReasons";
 import VSCode from "../components/VSCode/VSCode";
@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       {/* <PPPBar price={35} /> */}
-      {/* <SiteHeader /> */}
+      { <MySiteHeader /> }
 
       <main className="mt-8 space-y-56">
         <SiteHero />

@@ -1,6 +1,6 @@
 console.log("hi everybody!");
 
-export default function SiteHeader() {
+export default function MySiteHeader() {
   return (
     <nav className="py-10 text-gray-700">
       <div className="px-8 flex justify-between items-center">
